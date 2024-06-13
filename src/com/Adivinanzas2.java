@@ -18,9 +18,9 @@ public class Adivinanzas2 {
         int opcion;
 
         do {
-            opcion = JOptionPane.showOptionDialog(
-                    null,
-                    "¡Adivina la respuesta correcta!",
+            opcion = JOptionPane.showOptionDialog(null, """
+                                                        !Adivine la Respuesta Correcta: 
+                                                         1 .Primera adivinanza: \u00bfUna vieja loca con las tripas en la boca?""",
                     "Adivinanza 1",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
@@ -43,7 +43,7 @@ public class Adivinanzas2 {
 
             opcion = JOptionPane.showOptionDialog(
                     null,
-                    "Aunque corren más que los minutos, nunca logran llegar los primeros. ¿Qué son?",
+                    "Adivine la respuesta Correcta: \tAunque corren más que los minutos, nunca logran llegar los primeros. ¿Qué son?",
                     "Adivinanza 2",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
@@ -65,13 +65,13 @@ public class Adivinanzas2 {
 
             opcion = JOptionPane.showOptionDialog(
                     null,
-                    "¿Qué cosa corre más que un zorro?",
+                    "Adivine la respuesta Correcta: \t¿Qué cosa corre más que un zorro?",
                     "Adivinanza 3",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,
                     new String[]{"El tiempo", "El rayo", "El agua"},
-                    "El tiempo"
+                    null
             );
 
             if (opcion == JOptionPane.CLOSED_OPTION) {

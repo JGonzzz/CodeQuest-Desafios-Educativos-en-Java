@@ -1,5 +1,5 @@
-import javax.swing.JOptionPane;
 import java.util.Random;
+import javax.swing.JOptionPane;
 
 public class AdivinanzaNumero {
     public static void jugar() {
@@ -10,7 +10,7 @@ public class AdivinanzaNumero {
         while (true) {
             String adivinanzaStr = JOptionPane.showInputDialog(null, 
                 "He pensado en un número entre 1 y 100. ¿Puedes adivinar cuál es?\n" +
-                "Introduce tu adivinanza: ");
+                "Introduce un Número: ");
             
             // Si el usuario cierra el cuadro de diálogo, salir del juego
             if (adivinanzaStr == null) {
