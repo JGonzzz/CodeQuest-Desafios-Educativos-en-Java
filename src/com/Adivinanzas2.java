@@ -19,7 +19,7 @@ public class Adivinanzas2 {
 
         do {
             opcion = JOptionPane.showOptionDialog(null, """
-                                                        !Adivine la Respuesta Correcta: 
+                                                         Adivine la Respuesta Correcta: 
                                                          1 .Primera adivinanza: \u00bfUna vieja loca con las tripas en la boca?""",
                     "Adivinanza 1",
                     JOptionPane.DEFAULT_OPTION,
@@ -41,9 +41,9 @@ public class Adivinanzas2 {
                 continue;
             }
 
-            opcion = JOptionPane.showOptionDialog(
-                    null,
-                    "Adivine la respuesta Correcta: \tAunque corren más que los minutos, nunca logran llegar los primeros. ¿Qué son?",
+            opcion = JOptionPane.showOptionDialog(null, """
+                                                        Adivine la Respuesta Correcta:
+                                                        Aunque corren m\u00e1s que los minutos, nunca logran llegar los primeros. \u00bfQu\u00e9 son?""",
                     "Adivinanza 2",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
@@ -63,9 +63,9 @@ public class Adivinanzas2 {
                 continue;
             }
 
-            opcion = JOptionPane.showOptionDialog(
-                    null,
-                    "Adivine la respuesta Correcta: \t¿Qué cosa corre más que un zorro?",
+            opcion = JOptionPane.showOptionDialog(null, """
+                                                        Adivine la respuesta Correcta:
+                                                        \u00bfQu\u00e9 cosa corre m\u00e1s que un zorro?""",
                     "Adivinanza 3",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
