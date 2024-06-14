@@ -19,7 +19,7 @@ public class App {
             panel.setBackground(new Color(60, 63, 65)); // Fondo oscuro
             panel.setLayout(new BorderLayout());
 
-            JLabel etiqueta = new JLabel("¡Bienvenido al Juego de Preguntas!", SwingConstants.CENTER);
+            JLabel etiqueta = new JLabel("<html><b>¡Bienvenido al Juego de Preguntas!</b></html>", SwingConstants.CENTER);
             etiqueta.setForeground(new Color(187, 187, 187)); // Texto claro
             etiqueta.setFont(new Font("Times new roman", Font.BOLD, 20));
             panel.add(etiqueta, BorderLayout.CENTER);
