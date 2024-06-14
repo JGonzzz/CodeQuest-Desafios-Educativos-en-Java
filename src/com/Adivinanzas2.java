@@ -82,6 +82,7 @@ public class Adivinanzas2 {
                 JOptionPane.showMessageDialog(null, "¡Felicidades! Has acertado todas las adivinanzas.");
             } else {
                 JOptionPane.showMessageDialog(null, "Respuesta incorrecta. Volvamos a la primera adivinanza.");
+                continue;
             }
 
             break; // Salir del bucle una vez que se hayan respondido todas las adivinanzas correctamente
