@@ -1,4 +1,5 @@
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.awt.*;
 
 public class App {
     public static void main(String[] args) {
@@ -13,9 +14,23 @@ public class App {
                 "Salir"
             };
 
+            // Crear un JPanel personalizado
+            JPanel panel = new JPanel();
+            panel.setBackground(new Color(60, 63, 65)); // Fondo oscuro
+            panel.setLayout(new BorderLayout());
+
+            JLabel etiqueta = new JLabel("¡Bienvenido al Juego de Preguntas!", SwingConstants.CENTER);
+            etiqueta.setForeground(new Color(187, 187, 187)); // Texto claro
+            etiqueta.setFont(new Font("Times new roman", Font.BOLD, 20));
+            panel.add(etiqueta, BorderLayout.CENTER);
+
+            // Añadir un margen
+            panel.setBorder(BorderFactory.createEmptyBorder(60, 60, 60, 60));
+
+            // Usar el panel en el JOptionPane
             opcion = JOptionPane.showOptionDialog(
                 null,
-                "¡Bienvenido al Juego de Preguntas!",
+                panel,
                 "Menú Principal",
                 JOptionPane.DEFAULT_OPTION,
                 JOptionPane.PLAIN_MESSAGE,
@@ -48,6 +63,7 @@ public class App {
         }
     }
 }
+
 
 
 
