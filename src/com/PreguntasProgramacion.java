@@ -30,7 +30,7 @@ public class PreguntasProgramacion {
             respuesta = JOptionPane.showInputDialog(null, "¿Cuál es el símbolo utilizado para comentarios en línea en Java?");
             if (respuesta == null) {
                 return; // Salir si el usuario cancela
-            } else if (respuesta.equals("//")) {
+            } else if (respuesta.equalsIgnoreCase("//") || respuesta.equalsIgnoreCase("Diagonal") || respuesta.equalsIgnoreCase("Diagonales") || respuesta.equalsIgnoreCase("diagonal") || respuesta.equalsIgnoreCase("diagonales")) {
                 JOptionPane.showMessageDialog(null, "¡Correcto! Has ganado el juego.");
             } else {
                 JOptionPane.showMessageDialog(null, "Respuesta incorrecta. Fin del juego.");
