@@ -15,17 +15,17 @@ public class JuegoNumerico {
 
             String pregunta2 = "¿Cuál es el resultado de 5 + 3 X 2?";
             String opcion2A = "A. 16";
-            String opcion2B = "B. 11";
+            String opcion2B = "B. 10";
             String opcion2C = "C. 13";
-            String opcion2D = "D. 10";
-            char respuesta2Correcta = 'B';
+            String opcion2D = "D. 11";
+            char respuesta2Correcta = 'D';
 
             String pregunta3 = "¿Cuántos lados tiene un hexágono?";
-            String opcion3A = "A. 5";
-            String opcion3B = "B. 6";
+            String opcion3A = "A. 6";
+            String opcion3B = "B. 4";
             String opcion3C = "C. 7";
             String opcion3D = "D. 8";
-            char respuesta3Correcta = 'B';
+            char respuesta3Correcta = 'A';
 
             String pregunta4 = "¿Cuál es la raíz cuadrada de 64?";
             String opcion4A = "A. 6";
