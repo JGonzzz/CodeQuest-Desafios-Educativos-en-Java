@@ -20,7 +20,7 @@ public class PreguntasProgramacion {
             respuesta = JOptionPane.showInputDialog(null, "¿Qué significa 'OOP' en programación?");
             if (respuesta == null) {
                 return; // Salir si el usuario cancela
-            } else if (respuesta.equalsIgnoreCase("Programación Orientada a Objetos") || respuesta.equalsIgnoreCase("Object Oriented Programming")) {
+            } else if (respuesta.equalsIgnoreCase("Programación Orientada a Objetos") || respuesta.equalsIgnoreCase("Programacion Orientada a Objetos") || respuesta.equalsIgnoreCase("Object Oriented Programming") || respuesta.equalsIgnoreCase("programacion orientada a objetos")|| respuesta.equalsIgnoreCase("Object Oriented Programming") || respuesta.equalsIgnoreCase("programación orientada a objetos")){
                 JOptionPane.showMessageDialog(null, "¡Correcto! Pasas a la siguiente pregunta.");
             } else {
                 JOptionPane.showMessageDialog(null, "Respuesta incorrecta. Fin del juego.");
