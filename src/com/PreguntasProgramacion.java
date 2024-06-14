@@ -21,6 +21,7 @@ public class PreguntasProgramacion {
                             "Respuesta incorrecta. ¿Quieres intentar de nuevo?", "Intentar de nuevo",
                             JOptionPane.YES_NO_OPTION);
                     respuestaCorrecta = (intentarDeNuevo == JOptionPane.NO_OPTION);
+                    return;
                 }
             } while (!respuestaCorrecta);
 
@@ -41,6 +42,7 @@ public class PreguntasProgramacion {
                             "Respuesta incorrecta. ¿Quieres intentar de nuevo?", "Intentar de nuevo",
                             JOptionPane.YES_NO_OPTION);
                     respuestaCorrecta = (intentarDeNuevo == JOptionPane.NO_OPTION);
+                    return;
                 }
             } while (!respuestaCorrecta);
 
@@ -62,6 +64,7 @@ public class PreguntasProgramacion {
                             "Respuesta incorrecta. ¿Quieres intentar de nuevo?", "Intentar de nuevo",
                             JOptionPane.YES_NO_OPTION);
                     respuestaCorrecta = (intentarDeNuevo == JOptionPane.NO_OPTION);
+                    return;
                 }
             } while (!respuestaCorrecta);
 
