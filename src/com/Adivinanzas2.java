@@ -70,7 +70,7 @@ public class Adivinanzas2 {
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,
-                    new String[]{"El tiempo", "El rayo", "El agua"},
+                    new String[]{"El Rayo", "El Tiempo", "El agua"},
                     null
             );
 
@@ -78,7 +78,7 @@ public class Adivinanzas2 {
                 return;
             }
 
-            if (opcion == 1) {
+            if (opcion == 0) {
                 JOptionPane.showMessageDialog(null, "¡Felicidades! Has acertado todas las adivinanzas.");
             } else {
                 JOptionPane.showMessageDialog(null, "Respuesta incorrecta. Volvamos a la primera adivinanza.");
