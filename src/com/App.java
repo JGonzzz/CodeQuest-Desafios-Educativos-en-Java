@@ -9,7 +9,7 @@ public class App {
                 "Adivinanzas",
                 "Preguntas de Programación",
                 "Adivina el Número",
-                "Juego Numérico",
+                "Adivinanzas Matemáticas",
                 "Salir"
             };
 
@@ -40,7 +40,7 @@ public class App {
                     AdivinanzaNumero.jugar();
                     break;
                 case 3:
-                    JuegoNumerico.jugar();
+                    AdivinanzaMatematica.jugar();
                     break;
                 default:
                     JOptionPane.showMessageDialog(null, "Opción no válida. Inténtalo de nuevo.");
